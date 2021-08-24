@@ -1,0 +1,71 @@
+.container {
+  width: 544px;
+  height: 240px;
+  border: dashed 2px #d7dadf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.draggedContainer {
+  opacity: 0.5;
+  width: 544px;
+  height: 240px;
+  border: dashed 2px #0055cb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.selectFileButton {
+  margin-left: 40%;
+  cursor: pointer;
+  color: #0071e9;
+  background-color: white;
+  border: solid 1px #0071ef;
+  height: 44px;
+  width: 106px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+.selectFileButton:hover {
+  background-color: rgba(66, 66, 66, 0.04);
+}
+
+.selectFileButton:focus {
+  outline: none;
+}
+
+.text {
+  margin-left: 34%;
+  width: 191px;
+  height: 18px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #99abbe;
+}
+.uploadButtonContainer {
+  width: 60px;
+  height: 60px;
+  margin-left: 43%;
+}
+
+.fileIcon {
+  width: 44.5px;
+  height: 57.8px;
+  background-color: #ffffff;
+  color: #0071ef;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.arrowIcon {
+  background-color: #ffffff;
+  color: #0071ef;
+}

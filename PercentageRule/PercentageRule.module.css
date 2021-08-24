@@ -1,0 +1,210 @@
+.grid {
+  background-color: #f5f6f8;
+  padding: 18px;
+  border-radius: 4px;
+  height: 96px !important;
+}
+.helperText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  line-height: 17px;
+  letter-spacing: normal;
+  margin: auto;
+}
+.percentlayout {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: normal;
+}
+.selectLayout {
+  /* position: inherit; */
+  display: flex;
+  width: 75% !important;
+  background: #ffffff !important;
+  border: #bfcad6 solid 0.01px;
+  border-radius: 4px;
+}
+.errorTxt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.percentGrid {
+  top: 20px;
+  position: relative;
+}
+.percentData {
+  font-weight: bold;
+  font-style: 18px;
+  color: #424242;
+}
+.disabledPercentData {
+  font-weight: bold;
+  font-style: 18px;
+  color: rgba(66, 66, 66, 0.4);
+}
+.adornedEnd {
+  background: #ffffff;
+  padding-left: 7px;
+}
+.disabledAdornedEnd {
+  padding-left: 29px;
+  background: #f5f6f8;
+  color: #9e9e9e;
+  font-style: 16px;
+}
+.focusDropdown focus {
+  background: #ffffff;
+}
+.customSelect {
+  position: relative;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+  width: 80% !important;
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+  padding-left: 10.5px;
+  border-radius: 4px;
+}
+.ddCategory {
+  font-weight: 400;
+  border: none !important;
+  font-size: 1rem;
+}
+.spreadType {
+  width: 100%;
+  font-size: 14px;
+  background: #ffffff;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: normal;
+  min-width: 16px;
+  border: #9e9e9e solid 0.01px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.spreadDiv {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+  background-color: #ffffff;
+}
+.percentBox {
+  padding-left: 8px;
+  position: relative;
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.percentOutline {
+  border: 1;
+  display: inline-flex;
+  position: relative;
+  vertical-align: top;
+  width: 70%;
+  padding-top: 10.5px;
+  padding-bottom: 6.5px;
+  background-color: #f5f6f8;
+}
+.inlineBlock {
+  display: flex;
+  width: 536px !important;
+
+  border: none;
+}
+.downArrow {
+  width: 20%;
+  text-align: right !important;
+  padding-right: 1% !important;
+  padding-top: 2% !important;
+  color: slategrey;
+}
+.optionItem {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+.selectItem {
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.listbox li:hover {
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+.listbox li {
+  padding: 5px 12px;
+  display: flex;
+}
+.listbox li span {
+  flex-grow: 1;
+}
+
+.listbox li span svg {
+  color: transparent;
+}
+.ipVal:focus {
+  outline: none !important;
+}
+.ipVal {
+  width: inherit;
+  height: fit-content;
+  font-size: 1rem;
+  border: none;
+}
+.postcss {
+  width: 30%;
+  align-content: left;
+  font-size: larger !important;
+  color: #8492a8;
+  background-color: #f5f6f8;
+  line-height: 2.43;
+  padding-left: 10px;
+  width: 30%;
+  align-content: left;
+  font-size: larger;
+  background-color: '#F5F6F8';
+}
+.ipType {
+  border: none !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+.ipType:focus {
+  outline: none !important;
+}
+.typeBox {
+  width: 11%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  text-align: center;
+  padding: 10px;
+}
+.percentageBorder {
+  display: inline-flex;
+  width: -webkit-fill-available;
+  background-color: white;
+  line-height: 1.73;
+  border: #bfcad6 solid 0.01px;
+  border-radius: 4px;
+}

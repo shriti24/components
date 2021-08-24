@@ -1,0 +1,12 @@
+.optionItem {
+  padding: 5px 12px;
+  display: flex;
+}
+
+.optionItem:hover {
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+.optionItem:hover svg {
+  color: #000;
+}
